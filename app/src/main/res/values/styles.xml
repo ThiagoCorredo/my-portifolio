@@ -1,0 +1,45 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/primaryColor</item>
+    <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+    <item name="colorAccent">@color/primaryLightColor</item>
+    <item name="shapeAppearanceSmallComponent">@style/AppShapeAppearance.SmallComponent</item>
+    <item name="shapeAppearanceMediumComponent">@style/AppShapeAppearance.MediumComponent</item>
+    <item name="shapeAppearanceLargeComponent">@style/AppShapeAppearance.LargeComponent</item>
+    <item name="bottomAppBarStyle">@style/AppBottomAppBar</item>
+  </style>
+
+  <style name="AppCompat.SplashScreen" parent="AppTheme">
+    <item name="android:background">@color/background</item>
+  </style>
+
+  <style name="AppShapeAppearance.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+    <item name="cornerFamily">cut</item>
+    <item name="cornerSize">@dimen/_5sdp</item>
+  </style>
+
+  <style name="AppShapeAppearance.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+    <item name="cornerFamily">cut</item>
+    <item name="cornerSize">@dimen/_5sdp</item>
+  </style>
+
+  <style name="AppShapeAppearance.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+    <item name="cornerFamily">cut</item>
+    <item name="cornerSize">@dimen/_5sdp</item>
+  </style>
+
+  <style name="AppBottomAppBar" parent="Widget.MaterialComponents.BottomAppBar.Colored">
+    <item name="backgroundTint">@color/primaryColor</item>
+  </style>
+
+  <style name="roundedButton" parent="@style/Widget.MaterialComponents.Button">
+    <item name="android:background">@drawable/button_pill</item>
+    <item name="android:paddingLeft">@dimen/_10sdp</item>
+    <item name="android:paddingRight">@dimen/_10sdp</item>
+    <item name="android:textSize">@dimen/_10sdp</item>
+  </style>
+
+</resources>
